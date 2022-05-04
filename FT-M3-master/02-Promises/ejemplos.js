@@ -17,7 +17,7 @@ var segundoMetodo = function(datos) {
       setTimeout(function() {
          console.log('Terminó el segundo método');
          resolve('segundo');
-      }, 2000);
+      }, 20);
    });
    return promise;
 };
